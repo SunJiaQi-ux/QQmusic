@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+.warp{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 1335px;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: #ffff;
+    position: fixed;
+    z-index: 100;
+}
+
+.headr-nav{
+    padding-top: 80px;   
+    width: 18.75rem;
+    height: 5rem;
+    padding: 0 0.625rem 0 0.625rem;
+    img{
+        width: 7.875rem;
+        height: 2.1875rem;
+        margin-top: 1.375rem;
+    }
+    a{
+        width: 4.125rem;
+        height: 1.5625rem;
+        float: right;
+        border: 0.0625rem solid rgba(0,0,0,0.3);
+        color: black;
+        border-radius: 25px;
+        padding: 0 10px 0 10px;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 22px;
+    }
+}
+
+.mod-nav{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(244, 244, 244);
+    padding-top: 80px;
+    div{
+        width: 6.3125rem;
+        height: 2.5rem;
+        float: left;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .cutn{
+        color: #31c27c;
+        border-bottom: 2px solid #31c27c;
+    }
+}
+
+.siper{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+
+}
+
+.swiper-container{
+    width: 100%;
+    height: 8rem;
+    img{
+        width: 100%;
+        height: 8rem;
+    }
+}
+
+.mod-list{
+    width: 18.75rem;
+    height: 14.8125rem;
+    margin: 0 0.625rem 0 0.625rem;
+    h2{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 11px;
+    }
+    ul{
+        width: 19.25rem;
+        height: 12.625rem;
+        li{
+            width: 9.125rem;
+            height: 12rem;
+            float: left;
+            margin-bottom: 10px;
+            background-color: #ffff;
+            .lt-img{
+                width: 9.125rem;
+                height: 9.125rem;
+            }
+            .lt-list{
+                width: 146px;
+                height: 41px;
+                padding: 0 7px 5px 0px;
+                h3{
+                    height: 36px;
+                    line-height: 18px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            .mod-logo{
+                width: 24px;
+                height: 24px;
+                background-color: bisque;
+                overflow: hidden;
+                position: relative;
+                bottom: 35px;
+                left: 115px;
+                background: url(/Source/list_sprite.png) no-repeat;
+                background-size: 24px;
+                
+            }
+        }
+    }
+}
+
+.mod-twocol{
+    width: 300px;
+    height: 40.5rem;
+    margin: 0 10px 0 10px;
+    h2{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 11px;
+    }
+    ul{
+        width: 19.25rem;
+        height: 12.625rem;
+        li{
+            width: 9.125rem;
+            height: 12rem;
+            float: left;
+            margin-bottom: 10px;
+            background-color: #ffff;
+            .lt-img{
+                width: 9.125rem;
+                height: 9.125rem;
+            }
+            .lt-list{
+                width: 8.25rem;
+                height: 41px;
+                padding: 0 7px 5px 0px;
+                h3{
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 14px;
+                    // color: gray;
+                }
+            }
+            .mod-logo{
+                width: 24px;
+                height: 24px;
+                // background-color: bisque;
+                overflow: hidden;
+                position: relative;
+                bottom: 35px;
+                left: 115px;
+                background: url(/Source/list_sprite.png) no-repeat;
+                background-size: 24px auto;
+            }
+        }
+    }
+}
+
+
+.mod-footer{
+    width: 100%;
+    height: 6rem;
+    padding: 0.9375rem 0 4.375rem 0;
+}
+
+.verson-tad{
+    width: 100%;
+    height: 17.6px;
+    text-align: center;
+    margin-bottom: 1rem;
+    a{
+        width: 6.125rem;
+        height: 0.875rem;
+        padding: 0 0.9375rem 0 0.9375rem;
+        font-size: 14px;
+    }
+}
+
+.foote-logo{
+    width: 5.125rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin: 0 7.4375rem 0.625rem 7.4375rem;
+    img{
+        width: 5.125rem;
+        height: 1.5rem;
+    }
+}
+
+.copy{
+    width: 100%;
+    height: 0.875rem;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.copying{
+    width: 100%;
+    height: 0.875rem;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.bottom-bar{
+    width: 100%;
+    height: 33px;
+    background-color: rgba(255,255,255,0.9);
+    margin-top: 25px;
+    text-align: center;
+    z-index: 100;
+    padding: 0.9375rem 0 15px 0;
+    position: fixed;
+    top: 481px;
+    span{
+        width: 10.35rem;
+        height: 33px;
+        background-color: #31c27c;
+        padding: 0 0.9375rem 0 0.9375rem;
+        border-radius: 10px;
+        line-height: 33px;
+        a{
+            color: #FFFF;
+            font-size: 16px;
+        }
+    }
+}
+
+.two{
+    width: 100%;
+    height: 106.5rem;
+    background-color: #f4f4f4;
+}
+
+.siper-two{
+    width: 18.75rem;
+    height: 106.5rem;
+    background-color: #f4f4f4;
+    ul{
+        margin: 0.625rem 0.625rem 0 0.625rem;
+        li{
+            width: 18.75rem;
+            height: 6.25rem;
+            margin-bottom: 10px;
+            margin-top: 4px;
+            background-color: #fff;
+            .topic-item{
+                width: 18.75rem;
+                height: 6.25rem;
+                float: left;
+                .top-item-img{
+                    width: 6.25rem;
+                    height: 6.25rem;
+                    float: left;
+                    img{
+                        width: 6.25rem;
+                        height: 6.25rem;
+                        float: left;
+                    }
+                }
+                .topic-item-span{
+                    width: 10px;
+                    height: 10px;
+                    background: url(/Source/list_sprite.png) no-repeat 0px 0px;
+                    background-color: red;
+                    position: relative;
+                    left: 5px;
+                    top: 82px;
+                    background-size: 24px;
+                }
+            }
+            .topic-info{
+                width: 12.5rem;
+                height: 6.25rem;
+                float: left;
+                div{
+                    width: 10.9375rem;
+                    height: 5.6875rem;
+                    margin: 4px 15px 4px 15px;
+                    h3{
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 5px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: rgba(0,0,0,0.5);
+                        span{
+                            font-size: 14px;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
